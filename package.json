@@ -1,6 +1,6 @@
 {
   "name": "@mikebridge/mb-test-package",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A test npm package",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,12 @@
     "test"
   ],
   "author": "Mike Bridge <mike.bridge@smartaccess.io>",
-  "license": "ISC",
+  "license": "GNU",
   "bugs": {
     "url": "https://github.com/mikebridge/mb-test-package/issues"
   },
-  "homepage": "https://github.com/mikebridge/mb-test-package#readme"
+  "homepage": "https://github.com/mikebridge/mb-test-package#readme",
+  "publishConfig": {
+    "registry": "http://admin:access3000@35.226.101.179:5984/registry/_design/app/_rewrite"
+  }
 }
